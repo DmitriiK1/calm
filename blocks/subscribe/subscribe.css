@@ -1,0 +1,19 @@
+.subscribe{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+    .subscribe{
+        flex-direction: column;
+        width: 90%;
+        margin: 50px auto;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .subscribe{    
+        margin: 100px auto 0px;
+        grid-gap:20px;
+    }
+}

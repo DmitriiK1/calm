@@ -1,0 +1,15 @@
+.form__button{
+    height: 38px;
+    width: 82px;
+    border-radius: 6px;
+    border: 0px;
+    background: #353732;
+    color: #fafafa;
+
+    text-align: center;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
