@@ -1,0 +1,12 @@
+.header-link{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+
+    text-decoration: none;
+    text-align: center;
+    margin: auto 5px;
+    color: #000;
+} 
