@@ -1,0 +1,39 @@
+@import url('./__title/container__title.css');
+@import url('./__description/container__description.css');
+@import url('./__date/container__date.css');
+
+.container-text{
+    margin: 0px auto 0px !important;
+    border-bottom: 1px solid #45525B;
+}
+
+.container-text:last-child{
+    margin-bottom: 50px !important;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    .container{
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .container-text{
+        margin-top: 30px !important;
+        width: 400px !important;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .container-text{
+        margin-top: 50px !important;
+        width: 690px !important;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container-text{
+        margin-top: 50px !important;
+        width: 765px !important;
+    }
+}

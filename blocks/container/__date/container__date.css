@@ -1,0 +1,14 @@
+.container__date{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+
+    font-size: 11px;
+    line-height: 17px;
+
+    width: 100px;
+    
+    display: block;
+
+    margin: 0px auto 5px 5px;
+}
